@@ -1,12 +1,12 @@
 from pg8000.native import Connection 
 
 def create_connection():
-    db = Connection(
+    db_conn = Connection(
         "joshuawork", 
         password="elmagico", 
         database="vehicles"
     )
-    results = db.run("SELECT * FROM cars;")
+    results = db_conn.run("SELECT * FROM cars;")
     for row in results:
         print(row)
 
