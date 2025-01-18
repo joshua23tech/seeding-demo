@@ -15,5 +15,6 @@ CREATE TABLE cars (
 INSERT INTO cars (car_type, car_brand, car_price, car_rating, car_is_eco_friendly)
 VALUES
     ('Saloon', 'Mercedez-Benz', 50000, 8, FALSE), 
-    ('4 x 4', 'Toyota', 25000, 6, TRUE)
+    ('4 x 4', 'Toyota', 25000, 6, TRUE), 
+    ('Offroad', 'Honda', 40000, 9, FALSE)
 RETURNING *;
