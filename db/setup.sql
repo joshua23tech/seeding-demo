@@ -17,4 +17,5 @@ VALUES
     ('Saloon', 'Mercedez-Benz', 50000, 8, FALSE), 
     ('4 x 4', 'Toyota', 25000, 6, TRUE), 
     ('Offroad', 'Honda', 40000, 9, FALSE)
+    ('Sedan', 'BMW', 50000, 9, FALSE)
 RETURNING *;
